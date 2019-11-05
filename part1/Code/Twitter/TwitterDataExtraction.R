@@ -2,10 +2,10 @@ library(rtweet)
 library(twitteR)
 library(dplyr)
 
-API_key<-"y3xeJOiD32J2ckNMeCHujvcnj"
-API_secret<-"N4VuS3zrxYCZH1bGOwRh5hOLdqk4QPCPBv9eSQdTbN7Y5p9jvY"
-Access_token<-"831018830570754048-ZiijifGYigp0nW301GIlDI4UWyNvx3e"
-Access_secret<-"rY6GHTJji1iq8ZdoF87Dtq1LTKCQkowA4IOgbDhuiETkC"
+API_key<-"API_key"
+API_secret<-"API_Secret"
+Access_token<-"Access_token"
+Access_secret<-"Access_secret"
 setup_twitter_oauth(API_key, API_secret, Access_token, Access_secret)
 
 
